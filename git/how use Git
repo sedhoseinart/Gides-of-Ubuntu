@@ -1,4 +1,9 @@
 for know about git first cd "git folder" and type:
 git status
 
+if you have a file that hade Red color
+you should use this command:
+git add "Red file Name"
+now its ready for commit whit this command:
+git commit -m 'yor massage'
 the simplest way is use vscode for commit or push and pull
