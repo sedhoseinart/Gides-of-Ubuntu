@@ -6,4 +6,8 @@ you should use this command:
 git add "Red file Name"
 now its ready for commit whit this command:
 git commit -m 'yor massage'
+
+some times its not enough and you You must run the command below:)
+git commit -a
+after that type your massage and press "CTRL + x" and then type "y"
 the simplest way is use vscode for commit or push and pull
