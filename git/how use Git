@@ -9,5 +9,6 @@ git commit -m 'yor massage'
 
 some times its not enough and you You must run the command below:)
 git commit -a
-after that type your massage and press "CTRL + x" and then type "y"
+after that type your massage and press "CTRL + x" and then type "y" and press "ENTER"
+--------------------------------
 the simplest way is use vscode for commit or push and pull
