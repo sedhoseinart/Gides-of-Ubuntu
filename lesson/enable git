@@ -1,0 +1,39 @@
+Git is likely already installed in your Ubuntu server. You can confirm this is the case on your server with the following command:
+git --version
+
+If you receive output similar to the following, then Git is already installed.
+git version 2.25.1
+
+If you did not get output of a Git version number, you will need to install it with the Ubuntu default package manager APT.
+
+First, use the apt package management tools to update your local package index.
+sudo apt update
+
+With the update complete, you can install Git:
+sudo apt install git
+
+You can confirm that you have installed Git correctly by running the following command and checking that you receive relevant output.
+git --version
+Output (git version 2.45.2)
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Update Git
+Before setting up Git, you should first make sure you are using the latest stable version as they can quickly get out of date.
+
+To update Git you first, update your package lists:
+
+sudo apt update
+Update Git:
+
+sudo apt install git
+Verify you have the latest stable Git Version
+
+git --version
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+from:
+https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu#installing-git-from-source
+

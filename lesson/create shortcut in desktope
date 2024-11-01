@@ -1,0 +1,3 @@
+cd /usr/share/applications/
+cp google-chrome.desktop ~/Desktop/
+

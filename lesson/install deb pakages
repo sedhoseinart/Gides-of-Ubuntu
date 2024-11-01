@@ -1,0 +1,5 @@
+you should first download .deb file
+go to download pass with cd command
+sudo dpkg -i pakagename.deb
+
+
