@@ -4,10 +4,7 @@ git status
 
 
 if you have a file that hade Red color
-and you wanna see differnts in this version and previos version of file:
-git difftool HEAD
-
-and you must add it to a stage and then commit it whit this command:
+you must add it to a stage and then commit it whit this command:
 git add "Red file Name"
 now its ready for commit whit this command:
 git commit -m 'yor massage'
