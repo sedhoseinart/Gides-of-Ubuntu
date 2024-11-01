@@ -1,0 +1,28 @@
+After you are satisfied with your Git version, you should configure Git so that the generated commit messages 
+you make will contain your correct information and support you as you build your software project.
+
+Configuration can be achieved by using the git config command. Specifically, we need to provide our name and email address
+because Git embeds this information into each commit we do. We can go ahead and add this information by typing:
+
+git config --global user.name "Your Name"
+git config --global user.email "youremail@domain.com"
+
+We can display all of the configuration items that have been set by typing:
+
+git config --list
+Output
+user.name=Your Name
+user.email=youremail@domain.com
+...
+The information you enter is stored in your Git configuration file, which you can optionally edit by hand with a text editor
+of your choice like this (we’ll use nano):
+
+nano ~/.gitconfig
+~/.gitconfig contents
+[user]
+  name = Your Name
+  email = youremail@domain.com
+Press CTRL and X, then Y then ENTER to exit the text editor.
+
+There are many other options that you can set, but these are the two essential ones needed. If you skip this step,
+you’ll likely see warnings when you commit to Git. This makes more work for you because you will then have to revise the commits you have done with the corrected information.

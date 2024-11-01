@@ -1,8 +1,0 @@
-you should first install git
-----------------------------
-and run this commands whit your information in Terminal:
-
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
---------------------------------------------------
-the simplest way is use vscode for commit or push and pull
