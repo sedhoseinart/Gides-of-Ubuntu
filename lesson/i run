@@ -2,6 +2,4 @@ sudo apt install curl
 install hiddify and chrome with deb file
 sudo apt install xz-utils
 sudo apt install snapd
-sudo snap install telegram-desktop
-
 sudo apt install copyq

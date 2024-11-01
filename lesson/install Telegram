@@ -1,0 +1,5 @@
+first you should install snap:
+sudo apt install snapd
+
+and:
+sudo snap install telegram-desktop
