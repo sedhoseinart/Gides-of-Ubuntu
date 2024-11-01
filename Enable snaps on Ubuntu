@@ -1,5 +1,5 @@
 sudo apt update
 sudo apt install snapd
 
-
+ex:
 sudo snap install telegram-desktop

@@ -1,0 +1,5 @@
+you should first install git
+and run this commands whit your information:
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
